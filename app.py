@@ -1,13 +1,21 @@
+import os
 import streamlit as st
 import pickle
 import string
-from nltk.corpus import stopwords
+import subprocess
+import sys
+
+# Ensure nltk is installed
+subprocess.check_call([sys.executable, "-m", "pip", "install", "nltk"])
+
 import nltk
+from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+
 nltk.download('punkt')
 nltk.download('stopwords')
-ps = PorterStemmer()
 
+ps = PorterStemmer()
 
 def transform_text(text):
     text = text.lower()
