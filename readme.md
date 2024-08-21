@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is an implementation of an Email/SMS Spam Classifier using Natural Language Processing (NLP) techniques. The classifier is built using the Multinomial Naive Bayes algorithm and is deployed as a web application using Streamlit. The application allows users to input a message and predict whether it is "Spam" or "Not Spam."
+This project is an implementation of an Email/SMS Spam Classifier using Natural Language Processing (NLP) techniques. The classifier is built using the Multinomial Naive Bayes algorithm and is deployed as a web application using Streamlit. The application allows users to input a message and predict whether it is "Spam" or "Not Spam".
 
 ## Table of Contents
 
